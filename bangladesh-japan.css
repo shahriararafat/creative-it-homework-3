@@ -1,0 +1,44 @@
+body{
+    background-color: bisque;
+}
+.bd-japan{
+    width: 600px;
+    height: 400px;
+    background: green;
+    position: relative;
+    margin: 300px 600px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: red;
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bd{
+    font-size: larger;
+    font-weight: 900;
+
+}
+
+.bd-japan:hover{
+    background: white;
+    
+}
+
+.bd-japan:hover .bd{
+    opacity: 0;
+}
+
+
+.bd-japan:hover::after{
+    content: "Japan";
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+}
