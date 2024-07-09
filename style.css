@@ -1,0 +1,16 @@
+.nav li{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.nav li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 140, 0);
+}
+
+.nav li a:hover{
+    background-color: rgb(255, 140, 0);
+    color: rgb(255, 255, 255);
+}
